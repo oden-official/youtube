@@ -1,8 +1,8 @@
 const { default: axios } = require("axios");
 
-const API_KEY = "AIzaSyCfj3cPwmXHtoHVbs9kadHflg_7GZuCNKs";
+const API_KEY = "";
 
-const id = "Enhxa_MKN1Q";
+const id = "";
 
 const url = `https://www.googleapis.com/youtube/v3/search?relatedToVideoId=${id}&part=id,snippet&key=${API_KEY}&type=video&maxResults=3`;
 const get = async () => {
